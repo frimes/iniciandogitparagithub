@@ -8,8 +8,9 @@ cd ~/meusite
 #criar arquivo musica.txt
 touch musica.txt
 #instalar git em linux 
-sudo apt-get update
-sudo apt-get install git
+#sudo apt-get update
+#sudo apt-get install git
+sudo snap install git
 #configurar git
 git config --global user.name "vainaweb"
 git config --global user.email "vainaweb@gmail.com"
